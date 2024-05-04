@@ -1,0 +1,159 @@
+/* 基础样式 */
+@font-face {
+  font-family: 'BlackOpsOne';
+  src: url('Black_Ops_One/BlackOpsOne-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.exhibitions,
+.languages {
+  text-align: right;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .cv-container h1 {
+    font-size: 24px; /* 减小标题字体大小 */
+    margin-bottom: 24px; /* 减少间距 */
+  }
+
+  .cv-container h2 {
+    color: #007BFF;
+    font-size: 20px; 
+    margin-top: 24px;
+  }
+
+  p {
+    font-size: 16px; 
+    margin: 8px 0;
+  }
+}
+
+
+.cv-container h1, .cv-container h2 {
+  font-family: 'BlackOpsOne', fallback-font, sans-serif;
+}
+
+.cv-container h1 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.cv-container h2 {
+  color: #007BFF;
+  margin-top: 32px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.statement p {
+  /* margin: 0 auto;  */
+  font-family: 'BlackOpsOne';
+}
+
+.artist-portrait {
+  display: block;
+  max-width: 200px; /* 控制头像大小 */
+  height: 200px;
+  margin: 20px auto; /* 上下边距20px, 左右自动居中 */
+  border-radius: 50%; /* 可选: 创建圆形头像 */
+}
+
+
+#switch {
+  position: fixed;
+  top: -2%;
+  right: 0;
+  width: 9%;
+  cursor: pointer;
+}
+
+#backBlack {
+  position: fixed;
+  top: -2%;
+  left: 0;
+  width: 6%;
+  cursor: pointer;
+}
+
+#backWhite {  
+  position: fixed;
+  top: -2%;
+  left: 0;
+  width: 6%;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Contact Interface */
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-container {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  z-index: 9;
+}
+
+.contactways {
+  position: fixed;
+  bottom: 0;
+  left: 1%;
+  width: 12%;
+  font-size: 12px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactme {
+  font-family: 'BlackOpsOne';
+  color: #007BFF;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #dcffb8;
+}

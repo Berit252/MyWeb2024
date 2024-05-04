@@ -1,0 +1,66 @@
+#group0 {
+  height: 210px;
+  width: 290px;
+  top: 20%; 
+  left: 46%;
+}
+
+.image-group #g0m1 {
+  top: 82px;
+  left: 2px;
+  width: 60px;
+}
+
+.image-group #g0m2 {
+  top: 10px;
+  left: 50px;
+  width: 80px;
+}
+
+.image-group #g0m3 {
+  top: 14px;
+  left: 120px;
+  width: 55px;
+}
+
+.image-group #g0m4 {
+  bottom: 28px;
+  left: 90px;
+  width: 60px;
+}
+
+.image-group #g0m5 {
+  top: 110px;
+  left: 70px;
+  width: 60px;
+}
+
+.image-group #g0m6 {
+  top: 100px;
+  right: 80px;
+  width: 70px;
+}
+
+.image-group #g0m7 {
+  top: 2px;
+  right: 40px;
+  width: 60px;
+}
+
+.image-group #g0m8 {
+  top: 125px;
+  right: 30px; 
+  width: 65px;
+}
+
+.image-group #g0m9 {
+  top: 40px;
+  right: 2px;
+  width: 65px;
+}
+
+.image-group #g0m10 {
+  bottom: 4px;
+  right: 30px;
+  width: 50px;
+}

@@ -1,0 +1,24 @@
+#group3 {
+  height: 100px;
+  width: 250px;
+  top: 50%; 
+  left: 4%;
+}
+
+.image-group #g3m1 {
+  top: 40px;
+  left: 0px;
+  width: 75px;
+}
+
+.image-group #g3m2 {
+  top: 0px;
+  left: 80px;
+  width: 95px;
+}
+
+.image-group #g3m3 {
+  top: 50px;
+  right: 0px;
+  width: 85px;
+}

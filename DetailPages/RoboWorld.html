@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork Details #04</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styleCV.css">
+    <link rel="stylesheet" type="text/css" href="./Gallery.css">
+</head>
+<body>
+  <img src="../img/On-Off.png" id="switch" alt="switch">
+  <img src="../img/backBlack.png" id="backBlack" alt="backBlack">
+  <img src="../img/backWhite.png" id="backWhite" alt="backWhite">
+
+  <div>
+    <main>
+      <div class="gallery">
+        <button class="slide-arrow left-arrow" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slide-wrapper">
+            <div class="slides">
+                <img src="../img/RoboWorldAssets/Final-08.jpg" alt="Artwork Image 1">
+                <img src="../img/RoboWorldAssets/Final-19.jpg" alt="Artwork Image 2">
+                <img src="../img/RoboWorldAssets/Final-17.jpg" alt="Artwork Image 3">
+                <img src="../img/RoboWorldAssets/Final-10.jpg" alt="Artwork Image 4">
+                <img src="../img/RoboWorldAssets/Final-05.jpg" alt="Artwork Image 5">
+                <img src="../img/RoboWorldAssets/Final-03.jpg" alt="Artwork Image 5">
+            </div>
+        </div>
+        <button class="slide-arrow right-arrow" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+      <div class="description">
+          <h1 class="title">Ramadan Manual</h1>
+          <p>
+            这组手册是从一个原创的虚构未来机器世界的角度编写的。我希望通过它让人们一睹这个未来文明，同时也鼓励观众反思我们的社会以及人与机器(AI)之间复杂的矛盾关系。<br/>
+            This set of manuals is written from the perspective of a fictional futuristic machine world. Through it, I hope to provide people a glimpse into this future civilization, while also encouraging the audience to reflect on our society and the complex relationship between humans and machines.
+          </p>
+          <br/><br/>
+          <p class="bluetext">
+            12.2023.<br/><br/>4 manuals, 3 pins, foil, iPad<br/>each book size: 17.8x13.0 cm^2
+            <br/><br/>
+          </p>
+      </div>
+      <div class="video-link">
+        <button onclick="window.open('https://youtu.be/Y0tz3U5Oa7s?si=QYVOqPfc4unC3Ys6', '_blank')">Manual Guidance for Human Users (YT Video)</button>
+      </div>
+      <div class="video-link">
+        <button onclick="window.open('https://youtu.be/VvE2b4pWQ3Y?si=toEm--10ctxJ4yL2', '_blank')">Robo Society Introduction (YT Video)</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="../scriptCV.js"></script>
+</body>
+</html>

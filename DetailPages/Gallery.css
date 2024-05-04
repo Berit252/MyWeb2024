@@ -1,0 +1,82 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 80%;
+  padding-left: 10%;
+  /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.slide-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: auto; 
+  object-fit: contain;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  top: 45%;
+  left: 24px;
+  border-radius: 4px;
+}
+
+.right-arrow {
+  top: 45%;
+  right: 24px;
+  border-radius: 4px;
+}
+
+.bluetext {
+  font-size: 16px;
+}
+
+.video-link button {
+  padding: 8px 16px;
+  background-color: #007BFF; /* YouTube's brand color */
+  color: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  /* text-transform: uppercase; */
+}
+
+.video-link button:hover {
+  background-color: #007bffd7;
+}
+
+video {
+  width: 100%; /* Make video responsive */
+  height: auto;
+  display: block; /* Ensure video is block to fit the container properly */
+}

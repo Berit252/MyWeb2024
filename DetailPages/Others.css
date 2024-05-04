@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'BlackOpsOne';
+  src: url('Black_Ops_One/BlackOpsOne-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.6;
+  /* padding: 20px; */
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.archive-container {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 700px;
+  z-index: 9;
+}
+
+.archive-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders between cells are shared */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Adds borders to cells */
+  padding: 8px;
+  text-align: left; /* Aligns text to the left */
+}
+
+th {
+  background-color: #eee; /* Gives a distinct background color to header cells */
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#switch {
+  position: fixed;
+  top: -2%;
+  right: 0;
+  width: 9%;
+  cursor: pointer;
+}
+
+#backBlack {
+  position: fixed;
+  top: -2%;
+  left: 0;
+  width: 6%;
+  cursor: pointer;
+}
+
+#backWhite {  
+  position: fixed;
+  top: -2%;
+  left: 0;
+  width: 6%;
+  cursor: pointer;
+  display: none;
+}

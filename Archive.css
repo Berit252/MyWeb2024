@@ -1,0 +1,121 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  /* max-width: 100%; */
+  padding-left: 10%;
+  /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.slide-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: auto; 
+  object-fit: contain;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  top: 45%;
+  left: 24px;
+  border-radius: 4px;
+}
+
+.right-arrow {
+  top: 45%;
+  right: 24px;
+  border-radius: 4px;
+}
+
+.bluetext {
+  font-size: 16px;
+}
+
+.video-link button {
+  padding: 8px 16px;
+  background-color: #007BFF; /* YouTube's brand color */
+  color: #ddd;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.video-link button:hover {
+  background-color: #007bffd7;
+}
+
+video {
+  width: 100%; /* Make video responsive */
+  height: auto;
+  display: block; /* Ensure video is block to fit the container properly */
+}
+
+.backtoarchive {
+  position: fixed;
+  top: 4%;
+  left: 1%;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+
+.slide-wrapper-A {
+  display: flex;
+  flex-wrap: wrap; /* 允许多张图片换行显示 */
+  justify-content: center; /* 水平居中显示图片 */
+  align-items: center; /* 垂直居中显示图片 */
+  max-width: 100%; /* 最大宽度为视口宽度 */
+  padding: 20px; /* 添加一些内边距 */
+}
+
+.slide-wrapper-A img {
+  width: 100%; /* 宽度自动调整至容器宽度 */
+  height: auto; /* 高度自动调整以保持图片原始比例 */
+  max-height: 80vh; /* 最大高度不超过视口高度的80%，以避免图片过高 */
+  object-fit: contain; /* 不裁剪图片，保证图片完整显示在容器内 */
+}
+
+.audio-player-container {
+  width: 100%;
+  max-width: 600px; /* 控制音频播放器的最大宽度 */
+  margin: 20px auto; /* 居中并添加外边距 */
+  padding: 10px;
+  background-color: #f4f4f4; /* 背景颜色 */
+  border-radius: 10px; /* 边角圆润 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 阴影效果 */
+}
+
+audio {
+  width: 100%; /* 使控制器宽度扩展到容器的宽度 */
+  outline: none; /* 去除轮廓 */
+}

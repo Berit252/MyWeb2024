@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork Details #01</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styleCV.css">
+    <link rel="stylesheet" type="text/css" href="./Gallery.css">
+</head>
+<body>
+  <img src="../img/On-Off.png" id="switch" alt="switch">
+  <img src="../img/backBlack.png" id="backBlack" alt="backBlack">
+  <img src="../img/backWhite.png" id="backWhite" alt="backWhite">
+
+  <div>
+    <main>
+      <div class="gallery">
+        <button class="slide-arrow left-arrow" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slide-wrapper">
+            <div class="slides">
+                <img src="../img/CloseUpImgs/CloseUpABit-21.jpg" alt="Artwork Image 1">
+                <img src="../img/CloseUpImgs/CloseUpABit-29.jpg" alt="Artwork Image 2">
+                <img src="../img/CloseUpImgs/CloseUpABit-18.jpg" alt="Artwork Image 3">
+                <img src="../img/CloseUpImgs/DSC01104.JPG" alt="Artwork Image 4">
+                <img src="../img/CloseUpImgs/CloseUpABit-22.jpg" alt="Artwork Image 5">
+            </div>
+        </div>
+        <button class="slide-arrow right-arrow" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+      <div class="description">
+          <h1 class="title">Close Up A Bit</h1>
+          <p>
+            也许人与人的遇见真的会产生某种磁场, 不然如何解释我靠近你时产生的兴奋与慌张? 贫乏无知的我只能用生物学的角度来解释与探索。<br/>
+            Perhaps there is a certain magnetic force that arises when people interact. How else could I explain the mix of excitement and anxiety that I feel whenever I get close to you? As someone who lacks wealth and knowledge, I can only attempt to understand and explore it through a biological lens.
+          </p>
+          <p>
+            在这里同我交流, 不用言语, 只需要靠近一点。<br/>
+            Communicate with me here without words, just get closer.
+          </p>
+          <br/><br/>
+          <p class="bluetext">
+            10.2023.<br/><br/>felt, 6 NeoPixeL Rings, electric wires, acrylic on PVC sheets, Arduino Uno, 3 ultrasonic distance sensors, glass, power bank, wood board<br/>size: 33x45x25 cm^3
+            <br/><br/>
+          </p>
+      </div>
+      <div class="video-link">
+        <button onclick="window.open('https://youtu.be/bocu_YvHOkM?si=wWApvMDL2UYJ9zJn', '_blank')">go to the demonstration video (YT Video)</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="../scriptCV.js"></script>
+</body>
+</html>

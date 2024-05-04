@@ -49,10 +49,10 @@ function applyLightMode() {
 
 // Back Button
 document.getElementById('backBlack').addEventListener('click', function(){
-  window.location.href = 'https://berit252.github.io/MyWeb2024/index.html';
+  window.location.href = 'berittang.net';
 })
 document.getElementById('backWhite').addEventListener('click', function(){
-  window.location.href = 'https://berit252.github.io/MyWeb2024/index.html';
+  window.location.href = 'berittang.net';
 })
 
 

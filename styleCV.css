@@ -119,14 +119,6 @@ p {
   z-index: 9;
 }
 
-.contactways {
-  position: fixed;
-  bottom: 0;
-  left: 1%;
-  width: 12%;
-  font-size: 12px;
-}
-
 input, textarea {
   width: 90%;
   padding: 10px;
@@ -142,6 +134,14 @@ input, textarea {
 .contactme {
   font-family: 'BlackOpsOne';
   color: #007BFF;
+}
+
+.contactways {
+  position: fixed;
+  bottom: 0;
+  left: 1%;
+  width: 50%;
+  font-size: 12px;
 }
 
 button {

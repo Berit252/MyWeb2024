@@ -47,6 +47,20 @@ const works = [
     description: 'Drawing on the theories about simulation, I designed a first person game.',
     background: 'url(img/SDGameVideoAssets/SDVideoScreenShot-1.jpg)',
     link: './DetailPages/SDGameVideo.html'
+  },
+  {
+    time: '05.2024.',
+    title: 'Simulation & Dreams - Dream Frames',
+    description: 'Random drop of some pieces of my dreams.',
+    background: 'url(img/SDInstallationAssets/SDVideoScreenShot-4.jpg)',
+    link: './DetailPages/SDInstallation.html'
+  },
+  {
+    time: '##.####.',
+    title: 'Other Works',
+    description: 'A little archive of my previous works.',
+    background: 'url(img/group0/C042.jpg)',
+    link: './DetailPages/Others.html'
   }
 ];
 
